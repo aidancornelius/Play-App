@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		1286F2D11BA630DB00D25B09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1286F2D01BA630DB00D25B09 /* main.m */; };
 		1286F2D41BA630DB00D25B09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1286F2D31BA630DB00D25B09 /* AppDelegate.m */; };
-		1286F2D71BA630DB00D25B09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1286F2D61BA630DB00D25B09 /* ViewController.m */; };
 		1286F2DA1BA630DB00D25B09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1286F2D81BA630DB00D25B09 /* Main.storyboard */; };
 		1286F2DD1BA630DB00D25B09 /* Play.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1286F2DB1BA630DB00D25B09 /* Play.xcdatamodeld */; };
 		1286F2DF1BA630DB00D25B09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1286F2DE1BA630DB00D25B09 /* Assets.xcassets */; };
 		1286F2E21BA630DB00D25B09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1286F2E01BA630DB00D25B09 /* LaunchScreen.storyboard */; };
 		1286F2ED1BA630DB00D25B09 /* PlayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1286F2EC1BA630DB00D25B09 /* PlayUITests.m */; };
+		1286F3061BA640B200D25B09 /* ts_logo_rgb.png in Resources */ = {isa = PBXBuildFile; fileRef = 1286F3051BA640B200D25B09 /* ts_logo_rgb.png */; settings = {ASSET_TAGS = (); }; };
+		1286F30D1BA6420200D25B09 /* home.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1286F30C1BA6420200D25B09 /* home.jpg */; settings = {ASSET_TAGS = (); }; };
+		1286F3441BA64A7900D25B09 /* embossed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1286F3421BA64A7900D25B09 /* embossed@2x.png */; settings = {ASSET_TAGS = (); }; };
+		1286F3451BA64A7900D25B09 /* embossed@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1286F3431BA64A7900D25B09 /* embossed@3x.png */; settings = {ASSET_TAGS = (); }; };
+		1286F3481BA65E4C00D25B09 /* loginOrRegisterWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1286F3471BA65E4C00D25B09 /* loginOrRegisterWebViewController.m */; settings = {ASSET_TAGS = (); }; };
+		1286F34B1BA65F8000D25B09 /* settingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1286F34A1BA65F8000D25B09 /* settingsTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		1286F34E1BA6680600D25B09 /* allowedAccessToWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = 1286F34D1BA6680600D25B09 /* allowedAccessToWeb.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,8 +38,6 @@
 		1286F2D01BA630DB00D25B09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1286F2D21BA630DB00D25B09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1286F2D31BA630DB00D25B09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1286F2D51BA630DB00D25B09 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1286F2D61BA630DB00D25B09 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1286F2D91BA630DB00D25B09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1286F2DC1BA630DB00D25B09 /* Play.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Play.xcdatamodel; sourceTree = "<group>"; };
 		1286F2DE1BA630DB00D25B09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,6 +46,16 @@
 		1286F2E81BA630DB00D25B09 /* PlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1286F2EC1BA630DB00D25B09 /* PlayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayUITests.m; sourceTree = "<group>"; };
 		1286F2EE1BA630DB00D25B09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1286F3051BA640B200D25B09 /* ts_logo_rgb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ts_logo_rgb.png; sourceTree = "<group>"; };
+		1286F30C1BA6420200D25B09 /* home.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home.jpg; sourceTree = "<group>"; };
+		1286F3421BA64A7900D25B09 /* embossed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "embossed@2x.png"; sourceTree = "<group>"; };
+		1286F3431BA64A7900D25B09 /* embossed@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "embossed@3x.png"; sourceTree = "<group>"; };
+		1286F3461BA65E4C00D25B09 /* loginOrRegisterWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginOrRegisterWebViewController.h; sourceTree = "<group>"; };
+		1286F3471BA65E4C00D25B09 /* loginOrRegisterWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginOrRegisterWebViewController.m; sourceTree = "<group>"; };
+		1286F3491BA65F8000D25B09 /* settingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = settingsTableViewController.h; sourceTree = "<group>"; };
+		1286F34A1BA65F8000D25B09 /* settingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = settingsTableViewController.m; sourceTree = "<group>"; };
+		1286F34C1BA6680600D25B09 /* allowedAccessToWeb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = allowedAccessToWeb.h; sourceTree = "<group>"; };
+		1286F34D1BA6680600D25B09 /* allowedAccessToWeb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = allowedAccessToWeb.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,15 +97,10 @@
 		1286F2CE1BA630DB00D25B09 /* Play */ = {
 			isa = PBXGroup;
 			children = (
-				1286F2D21BA630DB00D25B09 /* AppDelegate.h */,
-				1286F2D31BA630DB00D25B09 /* AppDelegate.m */,
-				1286F2D51BA630DB00D25B09 /* ViewController.h */,
-				1286F2D61BA630DB00D25B09 /* ViewController.m */,
-				1286F2D81BA630DB00D25B09 /* Main.storyboard */,
-				1286F2DE1BA630DB00D25B09 /* Assets.xcassets */,
-				1286F2E01BA630DB00D25B09 /* LaunchScreen.storyboard */,
+				1286F2F71BA63EF900D25B09 /* Assets */,
+				1286F2F91BA63F1E00D25B09 /* Controllers */,
 				1286F2E31BA630DB00D25B09 /* Info.plist */,
-				1286F2DB1BA630DB00D25B09 /* Play.xcdatamodeld */,
+				1286F2F81BA63F1500D25B09 /* Models */,
 				1286F2CF1BA630DB00D25B09 /* Supporting Files */,
 			);
 			path = Play;
@@ -112,6 +121,123 @@
 				1286F2EE1BA630DB00D25B09 /* Info.plist */,
 			);
 			path = PlayUITests;
+			sourceTree = "<group>";
+		};
+		1286F2F71BA63EF900D25B09 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1286F2FE1BA63F7100D25B09 /* Images */,
+				1286F2DE1BA630DB00D25B09 /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		1286F2F81BA63F1500D25B09 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1286F2DB1BA630DB00D25B09 /* Play.xcdatamodeld */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		1286F2F91BA63F1E00D25B09 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1286F2FD1BA63F4E00D25B09 /* Storyboards */,
+				1286F2FC1BA63F3F00D25B09 /* Classes */,
+				1286F2FB1BA63F2C00D25B09 /* Views */,
+				1286F2FA1BA63F2800D25B09 /* Delegates */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		1286F2FA1BA63F2800D25B09 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				1286F2D21BA630DB00D25B09 /* AppDelegate.h */,
+				1286F2D31BA630DB00D25B09 /* AppDelegate.m */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		1286F2FB1BA63F2C00D25B09 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1286F34F1BA687A200D25B09 /* Register the app (entitlements) */,
+				1286F3501BA687AF00D25B09 /* Settings */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		1286F2FC1BA63F3F00D25B09 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1286F34C1BA6680600D25B09 /* allowedAccessToWeb.h */,
+				1286F34D1BA6680600D25B09 /* allowedAccessToWeb.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1286F2FD1BA63F4E00D25B09 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				1286F2D81BA630DB00D25B09 /* Main.storyboard */,
+				1286F2E01BA630DB00D25B09 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		1286F2FE1BA63F7100D25B09 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1286F3071BA641A200D25B09 /* Home */,
+				1286F3041BA6409300D25B09 /* TS Logo */,
+				1286F2FF1BA63F7500D25B09 /* Launch */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		1286F2FF1BA63F7500D25B09 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				1286F3421BA64A7900D25B09 /* embossed@2x.png */,
+				1286F3431BA64A7900D25B09 /* embossed@3x.png */,
+			);
+			name = Launch;
+			sourceTree = "<group>";
+		};
+		1286F3041BA6409300D25B09 /* TS Logo */ = {
+			isa = PBXGroup;
+			children = (
+				1286F3051BA640B200D25B09 /* ts_logo_rgb.png */,
+			);
+			name = "TS Logo";
+			sourceTree = "<group>";
+		};
+		1286F3071BA641A200D25B09 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1286F30C1BA6420200D25B09 /* home.jpg */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		1286F34F1BA687A200D25B09 /* Register the app (entitlements) */ = {
+			isa = PBXGroup;
+			children = (
+				1286F3461BA65E4C00D25B09 /* loginOrRegisterWebViewController.h */,
+				1286F3471BA65E4C00D25B09 /* loginOrRegisterWebViewController.m */,
+			);
+			name = "Register the app (entitlements)";
+			sourceTree = "<group>";
+		};
+		1286F3501BA687AF00D25B09 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				1286F3491BA65F8000D25B09 /* settingsTableViewController.h */,
+				1286F34A1BA65F8000D25B09 /* settingsTableViewController.m */,
+			);
+			name = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +289,12 @@
 				TargetAttributes = {
 					1286F2CB1BA630DB00D25B09 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = HK6R36PLNR;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					1286F2E71BA630DB00D25B09 = {
 						CreatedOnToolsVersion = 7.0;
@@ -194,9 +326,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1286F30D1BA6420200D25B09 /* home.jpg in Resources */,
 				1286F2E21BA630DB00D25B09 /* LaunchScreen.storyboard in Resources */,
 				1286F2DF1BA630DB00D25B09 /* Assets.xcassets in Resources */,
 				1286F2DA1BA630DB00D25B09 /* Main.storyboard in Resources */,
+				1286F3441BA64A7900D25B09 /* embossed@2x.png in Resources */,
+				1286F3061BA640B200D25B09 /* ts_logo_rgb.png in Resources */,
+				1286F3451BA64A7900D25B09 /* embossed@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,9 +350,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1286F2D71BA630DB00D25B09 /* ViewController.m in Sources */,
 				1286F2D41BA630DB00D25B09 /* AppDelegate.m in Sources */,
+				1286F3481BA65E4C00D25B09 /* loginOrRegisterWebViewController.m in Sources */,
 				1286F2D11BA630DB00D25B09 /* main.m in Sources */,
+				1286F34B1BA65F8000D25B09 /* settingsTableViewController.m in Sources */,
+				1286F34E1BA6680600D25B09 /* allowedAccessToWeb.m in Sources */,
 				1286F2DD1BA630DB00D25B09 /* Play.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,10 +481,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Play/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = au.edu.teachersolutions.Play;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -354,10 +495,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Play/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = au.edu.teachersolutions.Play;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
