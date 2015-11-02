@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		121D5C871BC769EA00EDC8DC /* what_is_this_app.html in Resources */ = {isa = PBXBuildFile; fileRef = 121D5C861BC769EA00EDC8DC /* what_is_this_app.html */; settings = {ASSET_TAGS = (); }; };
-		121D5C891BC76DBE00EDC8DC /* offline.html in Resources */ = {isa = PBXBuildFile; fileRef = 121D5C881BC76DBE00EDC8DC /* offline.html */; settings = {ASSET_TAGS = (); }; };
-		121D5C8C1BC7704F00EDC8DC /* assetTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 121D5C8B1BC7704F00EDC8DC /* assetTable.m */; settings = {ASSET_TAGS = (); }; };
+		120137EF1BE718EB00D29092 /* ts_long_podcast.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 120137EE1BE718EB00D29092 /* ts_long_podcast.m4a */; };
+		120137F61BE7199500D29092 /* audioPlayerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 120137F51BE7199500D29092 /* audioPlayerTableViewController.m */; };
+		120137F91BE71AEA00D29092 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 120137F71BE71AEA00D29092 /* AVFoundation.framework */; };
+		120137FA1BE71AEA00D29092 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 120137F81BE71AEA00D29092 /* AVKit.framework */; };
+		121D5C871BC769EA00EDC8DC /* what_is_this_app.html in Resources */ = {isa = PBXBuildFile; fileRef = 121D5C861BC769EA00EDC8DC /* what_is_this_app.html */; };
+		121D5C891BC76DBE00EDC8DC /* offline.html in Resources */ = {isa = PBXBuildFile; fileRef = 121D5C881BC76DBE00EDC8DC /* offline.html */; };
+		121D5C8C1BC7704F00EDC8DC /* assetTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 121D5C8B1BC7704F00EDC8DC /* assetTable.m */; };
 		1286F2D11BA630DB00D25B09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1286F2D01BA630DB00D25B09 /* main.m */; };
 		1286F2D41BA630DB00D25B09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1286F2D31BA630DB00D25B09 /* AppDelegate.m */; };
 		1286F2DA1BA630DB00D25B09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1286F2D81BA630DB00D25B09 /* Main.storyboard */; };
@@ -17,20 +21,20 @@
 		1286F2DF1BA630DB00D25B09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1286F2DE1BA630DB00D25B09 /* Assets.xcassets */; };
 		1286F2E21BA630DB00D25B09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1286F2E01BA630DB00D25B09 /* LaunchScreen.storyboard */; };
 		1286F2ED1BA630DB00D25B09 /* PlayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1286F2EC1BA630DB00D25B09 /* PlayUITests.m */; };
-		1286F3061BA640B200D25B09 /* ts_logo_rgb.png in Resources */ = {isa = PBXBuildFile; fileRef = 1286F3051BA640B200D25B09 /* ts_logo_rgb.png */; settings = {ASSET_TAGS = (); }; };
-		1286F30D1BA6420200D25B09 /* home.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1286F30C1BA6420200D25B09 /* home.jpg */; settings = {ASSET_TAGS = (); }; };
-		1286F3441BA64A7900D25B09 /* embossed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1286F3421BA64A7900D25B09 /* embossed@2x.png */; settings = {ASSET_TAGS = (); }; };
-		1286F3451BA64A7900D25B09 /* embossed@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1286F3431BA64A7900D25B09 /* embossed@3x.png */; settings = {ASSET_TAGS = (); }; };
-		1286F3481BA65E4C00D25B09 /* loginOrRegisterWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1286F3471BA65E4C00D25B09 /* loginOrRegisterWebViewController.m */; settings = {ASSET_TAGS = (); }; };
-		1286F34B1BA65F8000D25B09 /* settingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1286F34A1BA65F8000D25B09 /* settingsTableViewController.m */; settings = {ASSET_TAGS = (); }; };
-		1286F34E1BA6680600D25B09 /* allowedAccessToWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = 1286F34D1BA6680600D25B09 /* allowedAccessToWeb.m */; settings = {ASSET_TAGS = (); }; };
+		1286F3061BA640B200D25B09 /* ts_logo_rgb.png in Resources */ = {isa = PBXBuildFile; fileRef = 1286F3051BA640B200D25B09 /* ts_logo_rgb.png */; };
+		1286F30D1BA6420200D25B09 /* home.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1286F30C1BA6420200D25B09 /* home.jpg */; };
+		1286F3441BA64A7900D25B09 /* embossed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1286F3421BA64A7900D25B09 /* embossed@2x.png */; };
+		1286F3451BA64A7900D25B09 /* embossed@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1286F3431BA64A7900D25B09 /* embossed@3x.png */; };
+		1286F3481BA65E4C00D25B09 /* loginOrRegisterWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1286F3471BA65E4C00D25B09 /* loginOrRegisterWebViewController.m */; };
+		1286F34B1BA65F8000D25B09 /* settingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1286F34A1BA65F8000D25B09 /* settingsTableViewController.m */; };
+		1286F34E1BA6680600D25B09 /* allowedAccessToWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = 1286F34D1BA6680600D25B09 /* allowedAccessToWeb.m */; };
 		12B3F66D1BD4A424001338EF /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12B3F66C1BD4A424001338EF /* SafariServices.framework */; };
-		12B3F6711BD4AE53001338EF /* linkTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B3F6701BD4AE53001338EF /* linkTableViewController.m */; settings = {ASSET_TAGS = (); }; };
-		12B3F6731BD4B4CC001338EF /* presentationMaster.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12B3F6721BD4B4CC001338EF /* presentationMaster.pdf */; settings = {ASSET_TAGS = (); }; };
-		12B3F6771BD4B626001338EF /* presentationNAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B3F6761BD4B626001338EF /* presentationNAudioViewController.m */; settings = {ASSET_TAGS = (); }; };
-		12CD849A1BABD9BA003F71E9 /* homeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12CD84991BABD9BA003F71E9 /* homeTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		12B3F6711BD4AE53001338EF /* linkTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B3F6701BD4AE53001338EF /* linkTableViewController.m */; };
+		12B3F6731BD4B4CC001338EF /* presentationMaster.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12B3F6721BD4B4CC001338EF /* presentationMaster.pdf */; };
+		12B3F6771BD4B626001338EF /* presentationNAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B3F6761BD4B626001338EF /* presentationNAudioViewController.m */; };
+		12CD849A1BABD9BA003F71E9 /* homeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12CD84991BABD9BA003F71E9 /* homeTableViewController.m */; };
 		12DE0AF51BABD476001A17AF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12DE0AF41BABD476001A17AF /* AudioToolbox.framework */; };
-		12DE0AF81BABD51D001A17AF /* detailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12DE0AF71BABD51D001A17AF /* detailTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		12DE0AF81BABD51D001A17AF /* detailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12DE0AF71BABD51D001A17AF /* detailTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		120137EE1BE718EB00D29092 /* ts_long_podcast.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = ts_long_podcast.m4a; sourceTree = "<group>"; };
+		120137F41BE7199500D29092 /* audioPlayerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audioPlayerTableViewController.h; sourceTree = "<group>"; };
+		120137F51BE7199500D29092 /* audioPlayerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = audioPlayerTableViewController.m; sourceTree = "<group>"; };
+		120137F71BE71AEA00D29092 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		120137F81BE71AEA00D29092 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		121D5C861BC769EA00EDC8DC /* what_is_this_app.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = what_is_this_app.html; sourceTree = "<group>"; };
 		121D5C881BC76DBE00EDC8DC /* offline.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = offline.html; sourceTree = "<group>"; };
 		121D5C8A1BC7704F00EDC8DC /* assetTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = assetTable.h; sourceTree = "<group>"; };
@@ -89,6 +98,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				120137F91BE71AEA00D29092 /* AVFoundation.framework in Frameworks */,
+				120137FA1BE71AEA00D29092 /* AVKit.framework in Frameworks */,
 				12B3F66D1BD4A424001338EF /* SafariServices.framework in Frameworks */,
 				12DE0AF51BABD476001A17AF /* AudioToolbox.framework in Frameworks */,
 			);
@@ -104,6 +115,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		120137F01BE7192A00D29092 /* Presentation Audio Player View */ = {
+			isa = PBXGroup;
+			children = (
+				120137F41BE7199500D29092 /* audioPlayerTableViewController.h */,
+				120137F51BE7199500D29092 /* audioPlayerTableViewController.m */,
+			);
+			name = "Presentation Audio Player View";
+			sourceTree = "<group>";
+		};
 		121D5C851BC769CF00EDC8DC /* Web */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +136,8 @@
 		1286F2C31BA630DB00D25B09 = {
 			isa = PBXGroup;
 			children = (
+				120137F71BE71AEA00D29092 /* AVFoundation.framework */,
+				120137F81BE71AEA00D29092 /* AVKit.framework */,
 				12B3F66C1BD4A424001338EF /* SafariServices.framework */,
 				12DE0AF41BABD476001A17AF /* AudioToolbox.framework */,
 				1286F2CE1BA630DB00D25B09 /* Play */,
@@ -166,6 +188,7 @@
 		1286F2F71BA63EF900D25B09 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				120137EE1BE718EB00D29092 /* ts_long_podcast.m4a */,
 				12B3F6721BD4B4CC001338EF /* presentationMaster.pdf */,
 				121D5C851BC769CF00EDC8DC /* Web */,
 				1286F2FE1BA63F7100D25B09 /* Images */,
@@ -205,6 +228,7 @@
 		1286F2FB1BA63F2C00D25B09 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				120137F01BE7192A00D29092 /* Presentation Audio Player View */,
 				12B3F6741BD4B60D001338EF /* Presentation NAudio View */,
 				12B3F66E1BD4AE43001338EF /* Links View */,
 				12CD84971BABD9AC003F71E9 /* Home View */,
@@ -419,6 +443,7 @@
 				1286F2DF1BA630DB00D25B09 /* Assets.xcassets in Resources */,
 				1286F2DA1BA630DB00D25B09 /* Main.storyboard in Resources */,
 				1286F3441BA64A7900D25B09 /* embossed@2x.png in Resources */,
+				120137EF1BE718EB00D29092 /* ts_long_podcast.m4a in Resources */,
 				1286F3061BA640B200D25B09 /* ts_logo_rgb.png in Resources */,
 				121D5C891BC76DBE00EDC8DC /* offline.html in Resources */,
 				121D5C871BC769EA00EDC8DC /* what_is_this_app.html in Resources */,
@@ -446,6 +471,7 @@
 				121D5C8C1BC7704F00EDC8DC /* assetTable.m in Sources */,
 				1286F3481BA65E4C00D25B09 /* loginOrRegisterWebViewController.m in Sources */,
 				1286F2D11BA630DB00D25B09 /* main.m in Sources */,
+				120137F61BE7199500D29092 /* audioPlayerTableViewController.m in Sources */,
 				12CD849A1BABD9BA003F71E9 /* homeTableViewController.m in Sources */,
 				1286F34B1BA65F8000D25B09 /* settingsTableViewController.m in Sources */,
 				1286F34E1BA6680600D25B09 /* allowedAccessToWeb.m in Sources */,

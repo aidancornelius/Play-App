@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="qI5-cA-4hf">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="qI5-cA-4hf">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -183,9 +183,6 @@
                                             <animations/>
                                         </tableViewCellContentView>
                                         <animations/>
-                                        <connections>
-                                            <segue destination="4sf-uk-Xtl" kind="show" id="9Rx-sx-75V"/>
-                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -434,7 +431,7 @@
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3b9-Bz-YNy">
                                                     <rect key="frame" x="8" y="8" width="398" height="617.5"/>
                                                     <animations/>
-                                                    <mutableString key="text">This app, ‘The Importance of Play’, and it’s accompanying Facebook Group, also called ‘Importance of Play’, are designed to support educators with resources specifically designed to defend the importance of play to parents, managers or others who may not be convinced that play based methodology is appropriate for young learners.
+                                                    <string key="text">This app, ‘The Importance of Play’, and it’s accompanying Facebook Group, also called ‘Importance of Play’, are designed to support educators with resources specifically designed to defend the importance of play to parents, managers or others who may not be convinced that play based methodology is appropriate for young learners.
 
 You’ll find the Importance of Play Facebook group in the links section below.
 
@@ -450,7 +447,7 @@ Teacher Solutions Pinterest page.
 Do stay in touch!
 
 This work is very important and we are all driven by the need to make a difference in the lives of our young learners. Together we can make that happen!
-</mutableString>
+</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
@@ -509,9 +506,9 @@ This work is very important and we are all driven by the need to make a differen
         <!--Title-->
         <scene sceneID="GuC-R5-wZ7">
             <objects>
-                <tableViewController id="4sf-uk-Xtl" sceneMemberID="viewController">
+                <tableViewController id="4sf-uk-Xtl" customClass="audioPlayerTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="67U-gF-3jF">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -519,13 +516,13 @@ This work is very important and we are all driven by the need to make a differen
                             <tableViewSection id="POf-Bh-5xa">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="325" id="V3P-xa-xTv">
-                                        <rect key="frame" x="0.0" y="64" width="414" height="325"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="325"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="V3P-xa-xTv" id="mqI-wr-r0p">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="324.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="324.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vnZ-LJ-yOG">
+                                                <webView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vnZ-LJ-yOG">
                                                     <rect key="frame" x="0.0" y="0.0" width="414" height="333"/>
                                                     <animations/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -542,14 +539,14 @@ This work is very important and we are all driven by the need to make a differen
                                         <animations/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="v34-oz-r8g" style="IBUITableViewCellStyleDefault" id="q4B-my-iLo">
-                                        <rect key="frame" x="0.0" y="389" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="325" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="q4B-my-iLo" id="nWG-xF-jdd">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Now Playing: Media Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="v34-oz-r8g">
-                                                    <rect key="frame" x="15" y="0.0" width="384" height="43.5"/>
+                                                    <rect key="frame" x="15" y="0.0" width="570" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -562,10 +559,10 @@ This work is very important and we are all driven by the need to make a differen
                                         <animations/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="j0h-5v-SjZ">
-                                        <rect key="frame" x="0.0" y="433" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="369" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="j0h-5v-SjZ" id="8Ah-Tu-Lc9">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <animations/>
                                         </tableViewCellContentView>
@@ -793,13 +790,13 @@ This app includes presentations, a podcast and materials to support promotion of
                                 </cells>
                             </tableViewSection>
                             <tableViewSection headerTitle="AFNetworking" id="6mb-lc-uzp">
-                                <mutableString key="footerTitle">Copyright (c) 2011–2015 Alamofire Software Foundation (http://alamofire.org/)
+                                <string key="footerTitle">Copyright (c) 2011–2015 Alamofire Software Foundation (http://alamofire.org/)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</mutableString>
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</string>
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="ypw-Hl-5Mp" detailTextLabel="Iw7-ze-AS2" style="IBUITableViewCellStyleValue1" id="nCS-Yv-UvM">
                                         <rect key="frame" x="0.0" y="400" width="414" height="44"/>
@@ -936,9 +933,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NfR-fU-KYU">
                                                     <rect key="frame" x="8" y="8" width="398" height="333.5"/>
                                                     <animations/>
-                                                    <mutableString key="text">This app, The Importance of Play’, and it’s accompanying Facebook Group, also called ‘Importance of Play’, are designed to support educators with resources specifically designed to defend the importance of play to parents, managers or others who may not be convinced that play based methodology is appropriate for young learners.
+                                                    <string key="text">This app, The Importance of Play’, and it’s accompanying Facebook Group, also called ‘Importance of Play’, are designed to support educators with resources specifically designed to defend the importance of play to parents, managers or others who may not be convinced that play based methodology is appropriate for young learners.
 
-In this section, you will find two versions of a presentation that we trust you will find useful for meetings with parents, to share with individuals or to run on a school/centre display. The version with audio can be used independently and the version without audio allows you more flexibility to tailor the presentation to your context.</mutableString>
+In this section, you will find two versions of a presentation that we trust you will find useful for meetings with parents, to share with individuals or to run on a school/centre display. The version with audio can be used independently and the version without audio allows you more flexibility to tailor the presentation to your context.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
@@ -1016,7 +1013,7 @@ In this section, you will find two versions of a presentation that we trust you 
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xni-dX-O38">
                                                     <rect key="frame" x="8" y="8" width="398" height="567.5"/>
                                                     <animations/>
-                                                    <mutableString key="text">This app, The Importance of Play’, and it’s accompanying Facebook Group, also called ‘Importance of Play’, are designed to support educators with resources specifically designed to defend the importance of play to parents, managers or others who may not be convinced that play based methodology is appropriate for young learners.
+                                                    <string key="text">This app, The Importance of Play’, and it’s accompanying Facebook Group, also called ‘Importance of Play’, are designed to support educators with resources specifically designed to defend the importance of play to parents, managers or others who may not be convinced that play based methodology is appropriate for young learners.
 
 Research is overwhelming, play is critical to social, emotional, physical and brain development. Thirty research/‘the case for play’ links are included in this section. It is envisioned that these links might be used on your school/centre Facebook page, blog or newsletter, over a period of time, to support your community to understand the overwhelming body of evidence that supports the importance of play. The link, it’s title and a short blurb is available here. 
 
@@ -1025,7 +1022,7 @@ Every week, further links are added to the Importance of Play Facebook group.
 Also in this section is a set of resources with terrific quotes on quality images. These might become part of a display area, or be a permanent part of your learning environment, as a statement of our philosophy and the value you place on play.
 
 Podcasts are included, under sub headings, as a reminder about what is important when talking about play based learning, and as a resource for new teachers, student teachers or assistants in your school/centre requiring more up to date information on play. There is a reference list in this section for your information too.
-</mutableString>
+</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
