@@ -8,7 +8,12 @@
 
 #import <UIKit/UIKit.h>
 @import AVFoundation;
+@import MediaPlayer;
 
-@interface audioPlayerTableViewController : UITableViewController
+@interface audioPlayerTableViewController : UITableViewController <UIWebViewDelegate, AVAudioPlayerDelegate>
+
+@property (weak, nonatomic) IBOutlet UIWebView *webView;
+
+@property (weak, nonatomic) IBOutlet UITableViewCell *pauseButton;
 
 @end
