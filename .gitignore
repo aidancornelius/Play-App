@@ -17,7 +17,9 @@ DerivedData
 *.ipa
 *.xcuserstate
 
+# Resources
 Play/ts_long_podcast.m4a
+Play/home.jpg
 
 # CocoaPods
 #
