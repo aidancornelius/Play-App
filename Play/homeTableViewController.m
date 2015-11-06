@@ -29,10 +29,10 @@
     NSLog(@"%@", indexPath);
     
     // Index 2.1, Play Research View
-    if ((indexPath.section == 2) && (indexPath.row == 1)) {
+    /* if ((indexPath.section == 2) && (indexPath.row == 1)) {
         SFSafariViewController *webView = [[SFSafariViewController alloc] initWithURL:[NSURL URLWithString:@"https://docs.google.com/document/d/1jlGQMHAZdwFgr7vt57zG7m3DB28lQKOi-QhO68KhM2M/view"]];
         [self.navigationController presentViewController:webView animated:YES completion:nil];
-    }
+    } */
 }
 
 @end

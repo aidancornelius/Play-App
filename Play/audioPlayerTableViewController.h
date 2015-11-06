@@ -10,9 +10,7 @@
 @import AVFoundation;
 @import MediaPlayer;
 
-@interface audioPlayerTableViewController : UITableViewController <UIWebViewDelegate, AVAudioPlayerDelegate>
-
-@property (weak, nonatomic) IBOutlet UIWebView *webView;
+@interface audioPlayerTableViewController : UITableViewController <AVAudioPlayerDelegate>
 
 @property (weak, nonatomic) IBOutlet UITableViewCell *pauseButton;
 

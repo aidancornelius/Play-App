@@ -14,14 +14,12 @@
 
 @implementation audioPlayerTableViewController
 
-@synthesize webView, pauseButton;
+@synthesize pauseButton;
 
 AVAudioPlayer *audioPlayer;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    [webView loadRequest:[NSURLRequest requestWithURL:[[NSBundle mainBundle] URLForResource:@"podcast_default" withExtension:@"html"]]];
     
     NSError *error = [NSError alloc];
     
@@ -69,11 +67,19 @@ AVAudioPlayer *audioPlayer;
         [audioPlayer play];
         [self updateMPNowPlayingInfoCentre:YES];
     }
-    
+#pragma mark - Modified to allow pause button on index 2
     if ((indexPath.section == 0) && (indexPath.row == 2)) {
-        NSLog(@"Playing: Chapter 2");
-        [audioPlayer playAtTime:2000];
-        [self updateMPNowPlayingInfoCentre:YES];
+        if ([audioPlayer isPlaying]) {
+            NSLog(@"The audio is currently playing, it will now pause.");
+            pauseButton.textLabel.text = @"Resume";
+            [self updateMPNowPlayingInfoCentre:NO];
+            [audioPlayer pause];
+        } else {
+            NSLog(@"The audio is currently paused, it will now resume.");
+            pauseButton.textLabel.text = @"Pause";
+            [self updateMPNowPlayingInfoCentre:YES];
+            [audioPlayer play];
+        }
     }
     
     if ((indexPath.section == 0) && (indexPath.row == 3)) {
@@ -95,17 +101,9 @@ AVAudioPlayer *audioPlayer;
     }
     
     if ((indexPath.section == 0) && (indexPath.row == 6)) {
-        if ([audioPlayer isPlaying]) {
-            NSLog(@"The audio is currently playing, it will now pause.");
-            pauseButton.textLabel.text = @"Resume";
-            [self updateMPNowPlayingInfoCentre:NO];
-            [audioPlayer pause];
-        } else {
-            NSLog(@"The audio is currently paused, it will now resume.");
-            pauseButton.textLabel.text = @"Pause";
-            [self updateMPNowPlayingInfoCentre:YES];
-            [audioPlayer play];
-        }
+        NSLog(@"Playing: Chapter 2");
+        [audioPlayer playAtTime:2000];
+        [self updateMPNowPlayingInfoCentre:YES];
     }
 }
 
@@ -127,8 +125,6 @@ AVAudioPlayer *audioPlayer;
 
 - (void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag {
     if (flag) {
-        [webView loadRequest:[NSURLRequest requestWithURL:[[NSBundle mainBundle] URLForResource:@"podcast_default" withExtension:@"html"]]];
-        
         pauseButton.hidden = YES;
     }
 }

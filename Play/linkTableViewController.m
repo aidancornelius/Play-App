@@ -54,6 +54,11 @@
         SFSafariViewController *webView = [[SFSafariViewController alloc] initWithURL:[NSURL URLWithString:@"https://www.pinterest.com/teachrsolutions/importance-of-play/"]];
         [self.navigationController presentViewController:webView animated:YES completion:nil];
     }
+    if ((indexPath.section == 0) && (indexPath.row == 5)) {
+        SFSafariViewController *webView = [[SFSafariViewController alloc] initWithURL:[NSURL URLWithString:@"http://engineroom.xyz/"]];
+        [self.navigationController presentViewController:webView animated:YES completion:nil];
+    }
+    
 }
 
 
