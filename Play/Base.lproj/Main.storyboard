@@ -445,7 +445,7 @@
                                                     <rect key="frame" x="15" y="0.0" width="345" height="619.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <animations/>
-                                                    <mutableString key="text">This app, ‘The Importance of Play’, and it’s accompanying Facebook Group, also called ‘Importance of Play’, are designed to support educators with resources specifically designed to defend the importance of play to parents, managers or others who may not be convinced that play based methodology is appropriate for young learners.
+                                                    <string key="text">This app, ‘The Importance of Play’, and it’s accompanying Facebook Group, also called ‘Importance of Play’, are designed to support educators with resources specifically designed to defend the importance of play to parents, managers or others who may not be convinced that play based methodology is appropriate for young learners.
 
 You’ll find the Importance of Play Facebook group in the links section below.
 
@@ -461,7 +461,7 @@ Teacher Solutions Pinterest page.
 Do stay in touch!
 
 This work is very important and we are all driven by the need to make a difference in the lives of our young learners. Together we can make that happen!
-</mutableString>
+</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -784,7 +784,7 @@ This work is very important and we are all driven by the need to make a differen
                                         </tableViewCellContentView>
                                         <animations/>
                                         <connections>
-                                            <segue destination="NzP-Ns-75u" kind="show" id="Qwt-xA-Rfx"/>
+                                            <segue destination="ZU9-UQ-wtx" kind="show" id="pC1-n4-HK7"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="RPI-Fb-bUQ" style="IBUITableViewCellStyleDefault" id="cTY-wE-9VX">
@@ -1180,9 +1180,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
                                                     <rect key="frame" x="15" y="0.0" width="345" height="247.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <animations/>
-                                                    <mutableString key="text">This app, The Importance of Play’, and it’s accompanying Facebook Group, also called ‘Importance of Play’, are designed to support educators with resources specifically designed to defend the importance of play to parents, managers or others who may not be convinced that play based methodology is appropriate for young learners.
+                                                    <string key="text">This app, The Importance of Play’, and it’s accompanying Facebook Group, also called ‘Importance of Play’, are designed to support educators with resources specifically designed to defend the importance of play to parents, managers or others who may not be convinced that play based methodology is appropriate for young learners.
 
-In this section, you will find two versions of a presentation that we trust you will find useful for meetings with parents, to share with individuals or to run on a school/centre display. The version with audio can be used independently and the version without audio allows you more flexibility to tailor the presentation to your context.</mutableString>
+In this section, you will find two versions of a presentation that we trust you will find useful for meetings with parents, to share with individuals or to run on a school/centre display. The version with audio can be used independently and the version without audio allows you more flexibility to tailor the presentation to your context.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -1262,7 +1262,7 @@ In this section, you will find two versions of a presentation that we trust you 
                                                     <rect key="frame" x="15" y="0.0" width="345" height="571.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <animations/>
-                                                    <mutableString key="text">This app, The Importance of Play’, and it’s accompanying Facebook Group, also called ‘Importance of Play’, are designed to support educators with resources specifically designed to defend the importance of play to parents, managers or others who may not be convinced that play based methodology is appropriate for young learners.
+                                                    <string key="text">This app, The Importance of Play’, and it’s accompanying Facebook Group, also called ‘Importance of Play’, are designed to support educators with resources specifically designed to defend the importance of play to parents, managers or others who may not be convinced that play based methodology is appropriate for young learners.
 
 Research is overwhelming, play is critical to social, emotional, physical and brain development. Thirty research/‘the case for play’ links are included in this section. It is envisioned that these links might be used on your school/centre Facebook page, blog or newsletter, over a period of time, to support your community to understand the overwhelming body of evidence that supports the importance of play. The link, it’s title and a short blurb is available here. 
 
@@ -1271,7 +1271,7 @@ Every week, further links are added to the Importance of Play Facebook group.
 Also in this section is a set of resources with terrific quotes on quality images. These might become part of a display area, or be a permanent part of your learning environment, as a statement of our philosophy and the value you place on play.
 
 Podcasts are included, under sub headings, as a reminder about what is important when talking about play based learning, and as a resource for new teachers, student teachers or assistants in your school/centre requiring more up to date information on play. There is a reference list in this section for your information too.
-</mutableString>
+</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
